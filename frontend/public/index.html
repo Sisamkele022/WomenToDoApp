@@ -1,89 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta name="description" content="WomanToDoApp - A productivity app for women to manage their tasks and goals.">
-  <meta name="author" content="Your Name">
-  <meta name="keywords" content="to-do list, task management, productivity, women, goals, tasks">
-
-  <!-- Title of the app -->
-  <title>WomanToDoApp</title>
-
-  <!-- Favicon -->
-  <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-
-  <!-- CSS Link -->
-  <link rel="stylesheet" href="styles.css">
-
-  <!-- Social Media Meta Tags -->
-  <meta property="og:title" content="WomanToDoApp">
-  <meta property="og:description" content="A productivity app designed specifically for women.">
-  <meta property="og:image" content="/images/preview.png">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Women’s To-Do List App</title>
 </head>
 <body>
-  <!-- Main content area -->
-  <div id="app">
-    <header>
-      <h1>Welcome to WomanToDoApp</h1>
-      <p>Your personal assistant for managing your daily tasks and goals.</p>
-    </header>
-
-    <main>
-      <section id="login-section">
-        <h2>Login</h2>
-        <form id="login-form">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-
-          <button type="submit">Login</button>
-        </form>
-
-        <p>Don't have an account? <a href="/register">Sign up</a></p>
-      </section>
-
-      <section id="register-section">
-        <h2>Sign Up</h2>
-        <form id="register-form">
-          <label for="username">Username:</label>
-          <input type="text" id="username" name="username" required />
-
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-
-          <button type="submit">Create Account</button>
-        </form>
-
-        <p>Already have an account? <a href="/login">Login</a></p>
-      </section>
-      
-      <section id="tasks-section">
-        <h2>Your Tasks</h2>
-        <ul id="task-list">
-          <!-- Task items will appear here dynamically -->
-        </ul>
-
-        <button id="add-task-btn">Add New Task</button>
-      </section>
-    </main>
-
-    <footer>
-      <p>&copy; 2024 WomanToDoApp. All rights reserved.</p>
-    </footer>
-  </div>
-
-  <!-- JavaScript Link -->
-  <script src="script.js"></script>
+  <div id="root"></div>
 </body>
 </html>

@@ -1,18 +1,11 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import LoginPage from './pages/LoginPage';
-import DashboardPage from './pages/DashboardPage';
+import React from "react";
 
-function App() {
+const Header = () => {
   return (
-    <Router>
-      <Switch>
-        <Route path="/login" component={LoginPage} />
-        <Route path="/dashboard" component={DashboardPage} />
-        <Route exact path="/" component={LoginPage} />
-      </Switch>
-    </Router>
+    <header className="header">
+      <h1>✨ Women's To-Do App ✨</h1>
+    </header>
   );
-}
+};
 
-export default App;
+export default Header;
